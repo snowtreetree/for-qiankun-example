@@ -6,7 +6,7 @@ import { registerMicroApps, start } from 'qiankun';
 registerMicroApps([
   {
     name: 'app1', // app name registered
-    entry: '//localhost:8000',
+    entry: '//localhost:8081',
     container: '#app1',
     activeRule: '/app1',
   },
