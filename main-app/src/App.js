@@ -21,6 +21,10 @@ function App() {
   );
 }
 
-start();
+start({
+  excludeAssetFilter: url => {
+    return true
+  }
+});
 
 export default App;
